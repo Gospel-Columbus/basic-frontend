@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width,initial-scale=1">
+	<title>Jquery selector</title>
+	<!-- jquery content delivery network-->
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<!-- using jquery selector-->
+		<script>
+   $(document).ready(function(){
+	   $("button").click(function(){
+		   $("h1").hide();
+		   //$("h2").hide();
+		   //$("p").hide();
+		   //$("#identify").hide();
+		   //$(".classic").hide();
+		   //$("*").hide();
+		   //$(this).hide();
+		   //$("p:first").hide();
+	   });
+   });
+	</script>
+	
+	<style>
+		h1,h2{
+			color:red;
+		}
+		p{
+			color:coral;
+		}
+		#identify{
+			color:blue;
+		}
+		.classic{
+			color:aquamarine;
+		}
+	
+	</style>
+	
+	</head>
+
+
+<body>
+	
+	
+	<h1> This is an heading </h1>
+	<h2> This is heading two</h2>
+	<p> This is the first paragraph</p>
+	<p id="identify"> This is paragraph one </p>
+    <p class="classic"> This is paragraph two</p>
+	<p> This is paragraph three</p>
+	
+	<button style="background-color:blue; color:white; border-style:none;width:150px; height:100px;border-radius:10px;font-size:40px;">Click!</button>
+	
+
+	
+	</body>
+
+
+</html>

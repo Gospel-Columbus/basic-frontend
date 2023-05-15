@@ -1,0 +1,85 @@
+p,li{
+	font-size:17px;              /* This is a 
+	                           Grouping selector*/
+	line-height:2;   
+	letter-spacing:1px;
+	
+	
+}
+
+/*This is an element selector*/
+h1{
+	font-size:65px;
+	text-align:center;
+	margin:0;
+	padding:20px 0;
+	color:skyblue;
+	text-shadow:3px 3px 1px black;
+	
+	
+}
+
+/* This is an id selector*/
+#quote{
+	
+	font-style:italic;
+	font-weight:bold;
+	
+	
+}
+/* This is a class selector*/
+.para{
+	
+	
+	font-size:25px;
+	color:green;
+	font-family:Arial,Helvetical,Times;
+	text-shadow:2px 1px 3px red;
+}
+
+
+/*This is an id selector*/
+#mic{    
+	
+	
+font-size:20px;
+	font-style:italic;
+	border:8px solid red;
+	color:red;
+	
+}
+/* This is an id selector*/
+#head{
+	margin:0;
+	padding:10px 20px 20px 20px;
+	color:red;
+	text-shadow:2px 2px 5px black;
+	width:100px;/*using width to know how wide the body of an element is.*/
+	border:3px solid red;
+	text-align:right;
+}
+
+/* This is an element selector*/
+body{
+	
+	margin:0 auto;
+	padding:0px 20px 20px 20px;
+	width:600px;/* using width to know how wide the body of an element is.*/
+	border:4px solid black;
+	background-color:yellow;
+}
+div{
+	
+	
+	color:red;
+	font-style:italic;
+	font-size:14px;
+	text-shadow:2px 2px 2px green;
+}
+	
+html{
+	background-color:cyan;
+    font-family:'Roboto',sans-serif;
+	font-size:12px;
+	letter-spacing:9px;
+}

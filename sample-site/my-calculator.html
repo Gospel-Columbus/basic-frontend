@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Javascript calculator">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Calculator</title>
+	<link href ="stylesheets/calculator.css" type="text/css" rel="stylesheet">
+	
+	</head>
+
+<body>
+	<h1>Calculator</h1>
+	<br/>
+	
+	<form id="myForm" Name="calc">
+		<input Name="display" style="width:675px;height:100px;text-align:center;background-color:cyan;"><br/>
+		<input type="button" value="0" Onclick="calc.display.value+='0'">
+		<input type="button" value="1" Onclick="calc.display.value+='1'">
+		<input type="button" value="2" Onclick="calc.display.value+='2'">
+		<input type="button" value="+" style="background-color:red;" Onclick="calc.display.value+='+'"><br/>
+		<input type="button" value="3" Onclick="calc.display.value+='3'">
+		<input type="button" value="4" Onclick="calc.display.value+='4'">
+		<input type="button" value="5" Onclick="calc.display.value+='5'">
+		<input type="button" value="-" style="background-color:aqua;" Onclick="calc.display.value+='-'"><br/>
+		<input type="button" value="6" Onclick="calc.display.value+='6'">
+		<input type="button" value="7" Onclick="calc.display.value+='7'">
+		<input type="button" value="8" Onclick="calc.display.value+='8'">
+		<input type="button" value="X" style="background-color:plum;"Onclick="calc.display.value+='*'"><br/>
+		<input type="button" value="9" Onclick="calc.display.value+='9'">
+		<input type="button" value="C" style="background-color:chartreuse;" Onclick="calc.display.value=''">
+		<input type="button" value="=" style="background-color:crimson;" Onclick="calc.display.value=eval(calc.display.value)">
+		<input type="button" value="&#247;" style="background-color:cadetblue;" Onclick="calc.display.value+='/'">
+	
+	
+
+	
+	
+	</form>
+	
+	
+	</body>
+
+
+
+</html>

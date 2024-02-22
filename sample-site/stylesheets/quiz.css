@@ -12,7 +12,7 @@ ul{
 li{
 	font-family: 'Rokkitt', serif;
 	font-size:2em;
-	color:#feb135;
+	color:red;
 }
 input[type=radio]{
 	border:0px;
@@ -24,7 +24,7 @@ p{
 }
 /*Quiz Classes*/
 .quizContainer{
-	background-color:#000398;
+	background-color:cyan;
 	border-radius:8px;
 	width:75%;
 	margin:auto;
@@ -51,9 +51,9 @@ p{
 	height:auto;
 	margin:auto;
 	border-radius:6px;
-	background-color:#f2f205;
+	background-color:red;
 	text-align:center;
-	color:red;
+	color:#fff;
 }
 .quizMessage{
 	background-color:peachpuff;

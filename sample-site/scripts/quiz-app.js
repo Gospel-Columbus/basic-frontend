@@ -1,6 +1,6 @@
 
 var questions =[{
-	question:"who is built this quiz app?",
+	question:"who built this quiz app?",
 	choices:["samuel zang","michael smith","james may","gospel columbus"],
 	correctAnswer:3
 },{
